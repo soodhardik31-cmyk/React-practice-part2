@@ -5,11 +5,12 @@ import viteLogo from './assets/vite.svg'
 import TodoList from "./TodoList.jsx";
 import './App.css'
 import Form from './Form.jsx'
+import CommentsForm from './CommentsForm.jsx';
 
 function App() {
     return(
       <>
-        <Form/>
+        <CommentsForm/>
       </>
     )
 }
